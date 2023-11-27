@@ -45,7 +45,7 @@ group. This streamlined process ensures that shared expenses within a group are 
 managed and tracked.
 # To run the backend
 ```bash
-cd backend
+cd api
 ```
 ```bash
   npm i
