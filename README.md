@@ -44,10 +44,26 @@ Within each group, users can add individuals and directly input amounts owed wit
 group. This streamlined process ensures that shared expenses within a group are easily
 managed and tracked.
 # To run the backend
+```bash
 cd backend
-npm i
-npm start
+```
+```bash
+  npm i
+```
+```bash
+  npm start
+```
+
 # To run the front end
+```bash
 cd frontend
+```
+```bash
 cd my-app
+```
+```bash
+  npm i
+```
+```bash
 npm run dev
+```
