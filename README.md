@@ -43,4 +43,11 @@ Adding People and Group Expenses
 Within each group, users can add individuals and directly input amounts owed within the
 group. This streamlined process ensures that shared expenses within a group are easily
 managed and tracked.
-
+# To run the backend
+cd backend
+npm i
+npm start
+#To run the front end
+cd frontend
+cd my-app
+npm run dev
