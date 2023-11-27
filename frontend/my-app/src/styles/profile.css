@@ -1,0 +1,288 @@
+/* *{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background: rgb(52,148,230);
+    background: linear-gradient(90deg, rgba(52,148,230,1) 21%, rgba(236,110,173,1) 100%);
+} */
+.container-fliud{
+    border: 3px solid black;
+}
+.navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 0.5rem;
+    background: rgb(52,148,230);
+background: linear-gradient(90deg, rgba(52,148,230,1) 21%, rgba(236,110,173,1) 100%);
+}
+#SpendRight{
+    text-align: end;
+    position: relative;
+    top: 0.7rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size:1.7rem;
+}
+.logo-main{
+    margin-left: 10px;
+    height:5rem;
+    width:5rem;
+}
+.profilepic{
+    height: 48px;
+    width: 48px;
+    margin-right: 5px;
+    border-radius:50%;
+    cursor: pointer;
+
+}
+.button-1 {
+    background-color: white;
+    border-radius: 2.5rem;
+    border-style: none;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 2.5rem;
+    width:9.5rem;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    margin: 1rem;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-1:hover,
+  .button-1:focus {
+    background-color: red;
+    opacity: 50;
+  }
+
+.container-main{
+    margin-top: 0.5rem;
+    /* border: 1px solid black; */
+    border-radius:10px ;
+    display: flex;
+    height: 100vh;
+}
+.profile-layout{
+    margin: 3px;
+    border: 1px solid black;
+    width: 19.66%;
+    border-radius:10px ;
+    
+}
+.total-menu{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    height: auto;
+    margin: 0.5rem;
+    margin-top: 0;
+    
+}
+/* .past-transaction{
+    /* border: 3px solid red; */
+    
+
+.total-debt{
+    /* border: 3px solid red; */
+    /* border: 3px solid red; */
+    width: 28.33%;
+    margin-top: 0;
+    display: flex;
+    margin-bottom  : 2px;
+    flex-direction: column;
+    justify-content:flex-start;
+
+    
+}
+.owed-topspent{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30.33%;
+    display: flex;
+    justify-content: flex-start;
+    
+    flex-direction: column;
+}
+
+.owed{
+    border: 2px solid;
+    border-color: rgb(55,230,52);
+    background: linear-gradient(90deg, rgba(55,230,52,1) 17%, rgba(121,236,110,0.908000700280112) 73%);;
+    height: auto;
+    border-radius: 10px;
+    margin: 0.5rem;
+
+}
+.topspent{
+    border: 1px solid green;
+    border-radius: 10px;
+    height: auto;
+    margin: 0.5rem;
+}
+.past-transaction{
+    width:28.33%;
+    margin: 0.5rem;
+}
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.profile-pic{
+    object-fit: contain ;
+    height: 50%;
+    margin-top: 1rem;
+    width: 50%;
+    align-items: center;
+}
+#username{
+    object-fit: contain ;
+    text-align: center;
+    font-size: 1em;
+}
+.heading-menu{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 600;
+    background-color:gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    margin-bottom: 2px;
+}
+#amount-display{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    height: 6vh;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.text-menu  {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    outline: none;
+    margin-bottom: 2px;
+    align-items: center;
+    width: 100%;
+}
+.friends-group-btn{
+      background-color:transparent;
+      border: 2px solid black;
+      border-radius: 0;
+      border-style:solid;
+      box-sizing: border-box;
+      color: black;
+      cursor: pointer;
+      display: inline-block;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      height: 2.5rem;
+      width:45%;
+      line-height: 20px;
+      list-style: none;
+      margin: 0;
+      outline: none;
+      margin: 1rem;
+      padding: 10px 16px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transition: color 100ms;
+      vertical-align: baseline;
+      /* user-select: none;
+      -webkit-user-select: none; */
+      touch-action: manipulation;
+}
+.pay-options{
+    display: flex;
+}
+ .clicked {
+    background-color: #4CAF50; /* green color, you can change it */
+    color: white;
+  }
+.owed{
+    background-color: rgba(0, 128, 6, 0.733);
+
+}
+.display-owed{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+
+}
+.past-transaction{
+    border: 1px black solid;
+    border-radius: 10px;
+    margin-top: 0;
+}
+.transactions-details{
+    margin: 2px;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#amount{
+    font-weight: bold;
+}
+.comments-owed{
+    border: 1px transparent;
+    border-radius:10px;
+    padding: 2px;
+}
+.trans-main-list {
+    background-color: rgba(255, 255, 255, 0.267);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.7rem;
+    height: 80%;
+    overflow-y: scroll;
+  }
+  
+  .trans-main-list-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgba(0, 0, 0, 0.173);
+  }
+  
+  .trans-main-list-row span {
+  padding: 1rem;
+  width:33%;
+  }

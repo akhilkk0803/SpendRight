@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  /* border: 2px solid red; */
+  display: flex;
+}
+#SpendRight {
+  text-align: end;
+  position: relative;
+  top: 0.7rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+body {
+  background: rgb(52, 148, 230);
+  background: linear-gradient(
+    90deg,
+    rgba(52, 148, 230, 1) 21%,
+    rgba(236, 110, 173, 1) 100%
+  );
+}
+
+.logo-main {
+  margin-left: 10px;
+  height: 5rem;
+  width: 5rem;
+}
+
+.button-1 {
+  background-color: white;
+  border-radius: 2.5rem;
+  border-style: none;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 2.5rem;
+  width: 9.5rem;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  margin: 1rem;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: #ea6ead;
+  opacity: 50;
+}
+
+.container-mains {
+  margin-top: 3rem;
+  /* border: 3px solid green; */
+
+  border-radius: 25px;
+  /* border: 1px solid black; */
+  /* box-shadow: 0px -3px  rgba(128, 128, 128, 0.24); */
+  /* background: #3493e69d; */
+  display: flex;
+  /* flex-direction: row-reverse; */
+  justify-content: space-between;
+}
+
+.main-image {
+  height: 25rem;
+  width: 25rem;
+  margin-right: 0.7rem;
+  border-radius: 50%;
+}
+
+.letters {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.typewrite {
+  color: white;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 3rem;
+}
+.getstarted {
+  position: absolute;
+  top: 27rem;
+}
+.features {
+  display: flex;
+}
+.app-features {
+  margin: 3px;
+  color: white;
+}
+.app-features h4 {
+  /* margin: 3px; */
+  color: black;
+}
+.app-features p {
+  /* margin: 3px; */
+  color: rgba(255, 255, 255, 0.973);
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+}
+.features-headlines {
+  display: flex;
+}
+.headline-feature {
+  display: flex;
+  justify-content: center;
+}
+.feature-icon {
+  margin-right: 3px;
+  color: black;
+}
