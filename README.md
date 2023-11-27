@@ -47,7 +47,7 @@ managed and tracked.
 cd backend
 npm i
 npm start
-#To run the front end
+# To run the front end
 cd frontend
 cd my-app
 npm run dev
